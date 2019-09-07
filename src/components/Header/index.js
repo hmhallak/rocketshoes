@@ -15,7 +15,7 @@ function Header({ cartSize }) {
         <img src={logo} alt="Rocketshoes" />
       </Link>
 
-      <Cart to="">
+      <Cart to="/Cart">
         <div>
           <strong>Meu carrinho</strong>
           <span>{cartSize} itens</span>
