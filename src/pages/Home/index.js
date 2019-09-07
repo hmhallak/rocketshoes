@@ -37,8 +37,8 @@ class Home extends Component {
       <ProductList>
         {products.map(product => (
           <li key={product.id}>
-            <img src={product.image} alt={product.strong} />
-            <strong>Tênis muito legal</strong>
+            <img src={product.image} alt={product.title} />
+            <strong>{product.title}</strong>
             <span>{product.priceFormatted}</span>
 
             <button
